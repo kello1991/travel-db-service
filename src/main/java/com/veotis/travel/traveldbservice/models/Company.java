@@ -1,10 +1,8 @@
 package com.veotis.travel.traveldbservice.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.veotis.travel.traveldbservice.enums.Gender;
 
 import javax.persistence.*;
-import java.io.Serializable;
 import java.util.List;
 
 @Entity

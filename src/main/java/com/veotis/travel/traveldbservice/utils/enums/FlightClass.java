@@ -1,4 +1,4 @@
-package com.veotis.travel.traveldbservice.enums;
+package com.veotis.travel.traveldbservice.utils.enums;
 
 import java.io.Serializable;
 

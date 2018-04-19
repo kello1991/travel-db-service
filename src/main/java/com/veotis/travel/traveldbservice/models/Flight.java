@@ -1,9 +1,8 @@
 package com.veotis.travel.traveldbservice.models;
 
-import com.veotis.travel.traveldbservice.enums.FlightClass;
+import com.veotis.travel.traveldbservice.utils.enums.FlightClass;
 
 import javax.persistence.*;
-import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 

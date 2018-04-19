@@ -44,7 +44,7 @@ public class ProfessionalDbServiceResource {
     }
 
     @PutMapping("/update")
-    public Professional updateCompany(@RequestBody final Professional professional){
+    public Professional updateProfessional(@RequestBody final Professional professional){
         Professional c = professionalRepository.getOne(professional.getId());
         c.setAddress(professional.getAddress());
         c.setFirstName(professional.getFirstName());

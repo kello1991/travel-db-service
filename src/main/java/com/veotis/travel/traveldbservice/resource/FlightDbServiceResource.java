@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/rest/db/professional")
+@RequestMapping("/rest/db/flight")
 public class FlightDbServiceResource {
 
 
@@ -47,7 +47,7 @@ public class FlightDbServiceResource {
 
 
     @PutMapping("/update")
-    public Flight updateCompany(@RequestBody final Flight flight){
+    public Flight updateFlight(@RequestBody final Flight flight){
         Flight c = flightRepository.getOne(flight.getId());
         c.setDate(flight.getDate());
         c.setCompany(flight.getCompany());
